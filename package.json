@@ -18,7 +18,8 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "rm -rf dist && tsc"
+    "prepublish": "rm -rf dist && tsc",
+    "build": "npm run prepublish"
   },
   "keywords": [
     "events",
