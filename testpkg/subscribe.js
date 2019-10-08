@@ -1,4 +1,4 @@
-const event = require('../dist');
+const event = require('../dist').event;
 
 event.on('onStart', val => console.log('on '+ val));
 
