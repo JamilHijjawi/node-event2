@@ -1,3 +1,3 @@
-// import event from '../dist/index';
+import { event } from '../dist';
 
-// event.dispatch();
+event.on('test', console.log)
