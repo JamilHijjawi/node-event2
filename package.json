@@ -1,16 +1,20 @@
 {
   "name": "node-event2",
   "version": "1.0.0",
-  "description": "",
+  "author": "Jamil <j.hijjawi@gmail.com>, Abdelrahman <abdo@email.com>",
+  "description": "Simple event lib",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublish": "rm -rf dist && tsc"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "events",
+    "eventemitter",
+    "util"
+  ],
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^12.7.11",
     "typescript": "^3.6.3"
